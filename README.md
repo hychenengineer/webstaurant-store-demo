@@ -123,12 +123,25 @@ webstaurant-store-demo/
 
 ---
 
-### Option 2: One-Click Launch (Windows PowerShell)
+### Option 2: One-Click Launch (Windows Batch / PowerShell)
+
+Double-click **`start.cmd`** in Windows Explorer, or run:
 
 ```powershell
 ./start-demo.ps1
 ```
 *Automatically starts the .NET 8 backend, boots Vite, and opens `http://localhost:5173` in your default browser.*
+
+---
+
+### 🔨 Building the Standalone Executable from Source
+
+To compile the single-file executable and release zip at any time, double-click:
+
+```cmd
+build-exe.cmd
+```
+*This compiles the React 19 frontend with Vite, copies assets to `backend/wwwroot`, runs `dotnet publish` for a self-contained single-file binary, and packages `WebstaurantStore-Mini-IDS-Windows-x64.zip`.*
 
 ---
 
