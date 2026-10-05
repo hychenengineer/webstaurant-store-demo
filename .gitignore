@@ -1,0 +1,38 @@
+# .NET / C# Build Artifacts
+**/bin/
+**/obj/
+publish/
+*.zip
+*.user
+*.userosscache
+*.sln.docstates
+*.suo
+.vs/
+.vscode/
+
+# SQLite Databases (created on first run)
+backend/*.db
+backend/*.db-shm
+backend/*.db-wal
+backend/ids.db
+backend/ids.db-shm
+backend/ids.db-wal
+
+# Frontend / Node.js
+**/node_modules/
+**/dist/
+frontend/dist/
+frontend/node_modules/
+backend/wwwroot/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Local Documentation & Prep
+INTERVIEW_NOTES.md
+*interview*
+
+# OS Files
+.DS_Store
+Thumbs.db
