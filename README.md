@@ -118,7 +118,7 @@ webstaurant-store-demo/
 👉 **[Download WebstaurantStore-Mini-IDS-Windows-x64.zip (Direct Download)](https://github.com/hychenengineer/webstaurant-store-demo/releases/download/v1.0.0/WebstaurantStore-Mini-IDS-Windows-x64.zip)** *(or visit the [GitHub Releases](https://github.com/hychenengineer/webstaurant-store-demo/releases) page)*
 
 1. Unzip the downloaded archive.
-2. Double-click **`WebstaurantStore-Mini-IDS.exe`**.
+2. Double-click **`Launch-Webstaurant-IDS.cmd`** (or **`WebstaurantStore-Mini-IDS.exe`**).
 3. The embedded server boots, auto-seeds the database, serves the compiled React 19 UI, and immediately launches `http://localhost:5067` in your browser!
 
 ---
